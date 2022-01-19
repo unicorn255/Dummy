@@ -1,0 +1,19 @@
+.navItems{
+    display: flex;
+    font-size: large;
+    color: royalblue;
+    flex-direction: column;
+    list-style: none;
+    align-items:flex-start;
+}
+.social-items{
+    color: royalblue;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navWrap{
+    color: royalblue;
+    margin-top: 80px;
+    background-color: rgb(73, 66, 66);
+}
