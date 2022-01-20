@@ -11,7 +11,7 @@ export default function About() {
                     <h2 className="section-heading">About Me</h2>
                 </div>
             </div>
-
+            
             <div className="row about-me__content" data-aos="fade-up">
                 <div className="column large-full about-me__text">
                     <p className="lead">
@@ -54,7 +54,8 @@ export default function About() {
 
             <div className="row about-me__buttons">
                 <div className="column large-half tab-full" data-aos="fade-up">
-                    <a href="mailto:rainer.bahls@gmx.de" className="btn btn--stroke full-width">stell mich ein</a>
+                    
+                    <a href="mailto:rainer.bahls@gmx.de?&subject=Ihr%20Portfolio&body=Sehr%20geehrter%20Herr%20Bahls" className="btn btn--stroke full-width">stell mich ein</a>
                 </div>
                 <div className="column large-half tab-full" data-aos="fade-up">
                 <a href = {Lebenslauf} target = "_blank"className="btn btn--primary full-width">Download CV</a>

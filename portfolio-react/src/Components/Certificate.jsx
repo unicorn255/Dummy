@@ -1,5 +1,5 @@
 import React from 'react'
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, img } from 'pure-react-carousel';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import certificateA from '../images/img028.jpg';
 import certificateB from '../images/img029.jpg'
@@ -15,10 +15,10 @@ export default function Certificate() {
         <CarouselProvider
         naturalSlideWidth={50}
         naturalSlideHeight={50}
-            totalSlides={7} style={{width: "36vw"}} style={{height: "80vh"}} >
+            totalSlides={7} style={{width: "36vw", height: "80vh"}}> 
             <Slider >
             
-            <Slide index={0}><img style={{height:"750px"}} src={certificateA} alt="certificate SAP" /></Slide>
+            <Slide index={0}><img style={{height:"750px"}}src={certificateA} alt="certificate SAP" /></Slide>
             <Slide index={1}><img style={{height:"750px"}}src={certificateB} alt="certificate Mat" /></Slide>
             <Slide index={2}><img style={{height:"750px"}}src={certificateC} alt="certificate Zeugnis" /></Slide>
             <Slide index={3}><img style={{height:"750px"}}src={certificateD} alt="certificate EWE" /></Slide>
@@ -26,7 +26,7 @@ export default function Certificate() {
             <Slide index={5}><img style={{height:"750px"}}src={certificateF} alt="certificate Eng APP 1.2" /></Slide>
             <Slide index={6}><img style={{height:"750px"}}src={certificateG} alt="certificate Eng APP 2.1" /></Slide>
             </Slider>
-            <div style={{width:"750px", display: "flex", justifyContent:"space-between"}}>
+            <div className="sliderButton"style={{width:"750px", display: "flex", justifyContent:"space-between"}}>
             <ButtonBack >zurück</ButtonBack>
             <ButtonNext >vor</ButtonNext> 
             </div>

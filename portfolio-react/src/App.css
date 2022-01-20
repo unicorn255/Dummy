@@ -202,10 +202,6 @@ h6,
   text-rendering: optimizeLegibility;
 }
 
-h2 {
-  color: #ffffff;
-}
-
 h1,
 .h1,
 h2,
@@ -423,8 +419,6 @@ input {
 
 button,
 select {
-
-  /* 1 */
   text-transform: none;
 }
 
@@ -2211,7 +2205,12 @@ footer {
   color: rgba(255, 255, 255, 0.3);
   position: relative;
 }
-
+/* @media screen and (max-width:600px) {
+.sliderButton{
+  margin-top: 9rem;
+  padding: 0;
+  text-align: center;
+} */
 footer a,
 footer a:visited {
   color: #ffffff;

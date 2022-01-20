@@ -16,7 +16,7 @@ function App() {
         </nav>
 
         <div onClick={() => setNavToggle(()=>!navToggle)} className={navToggle ? "header-menu-toggle" :"header-menu-toggle"}>
-          {/* {navToggle ? <div  ><span >Nav-Menue</span></div> : <NavLinkToggle />} */}
+           {/* {navToggle ? <div  ><span >Nav-Menue</span></div> : <NavLinkToggle />}  */}
           <span >Nav-Menue</span>
         </div>
         {!navToggle && <NavLinkToggle />}
